@@ -44,6 +44,7 @@ For more information on structure and contents of ESP-IDF projects, please refer
 
 * Program upload failure
 
+    * Check chip details `esptool.py flash_id`.
     * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
     * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
 
@@ -64,3 +65,6 @@ We will get back to you as soon as possible.
 - [ESP32 - DEBUGGING your ESP-IDF code using JTAG [VS CODE]](https://www.youtube.com/watch?v=uq93H7T7cOQ)
 - [JTAG Debugging](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/jtag-debugging/index.html)
 - [ESP32 WROOM, SOLO and WROVER Modules](https://docs.espressif.com/projects/esp-idf/en/v3.3/hw-reference/modules-and-boards.html#wroom-solo-and-wrover-modules)
+- [DevCon23 - ESP-IDF Getting Started (Beginners Guide to Key Concepts and Resources)](https://www.youtube.com/watch?v=J8zc8mMNKtc)
+- [The ESP Component Registry](https://components.espressif.com/)
+- [How to Save and Restore ESP8266 and ESP32 Firmware](https://cyberblogspot.com/how-to-save-and-restore-esp8266-and-esp32-firmware/)

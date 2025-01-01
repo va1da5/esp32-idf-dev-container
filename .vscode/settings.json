@@ -77,6 +77,7 @@
         "cppcoreguidelines-avoid-*"
     ],
     "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
     "cSpell.words": [
         "crun",
         "Datasheet",
@@ -87,7 +88,6 @@
         "Picoprobe",
         "Udev"
     ],
-    "idf.adapterTargetName": "esp32",
     "idf.port": "/dev/ttyUSB0",
     "idf.flashType": "UART"
 }
