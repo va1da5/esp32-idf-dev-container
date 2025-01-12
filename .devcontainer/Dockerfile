@@ -4,15 +4,15 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV IDF_GITHUB_ASSETS dl.espressif.com/github_assets
 ENV IDF_PATH /esp-idf
 ENV IDF_TOOLS_PATH /esp-idf/tools
-ENV ESP_IDF_VERSION v5.3.2
+ENV ESP_IDF_VERSION v5.4
 ENV LC_ALL C
 
 WORKDIR /
 
 RUN apt update \
     && apt install -y unzip git curl wget minicom flex bison gperf python3 python3-venv \
-        python3-pip locales cmake ninja-build ccache libffi-dev libssl-dev dfu-util \
-        libusb-1.0-0 clang-tidy \
+    python3-pip locales cmake ninja-build ccache libffi-dev libssl-dev dfu-util \
+    libusb-1.0-0 clang-tidy \
     && dpkg-reconfigure locales \
     && apt -y clean \
     && apt -y autoremove \
